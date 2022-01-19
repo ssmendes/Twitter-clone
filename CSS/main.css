@@ -1,0 +1,117 @@
+html, body,{
+	height: 100%;
+	overflow: auto;
+}
+
+body{
+	background-color: black;
+}
+
+.container {
+  padding: 0;
+  margin-left: 125px;
+}
+
+.navbar.navbar-inverse.navbar-transparente.navbar-static-top{
+	padding-top: -10px;
+	margin-top: -5px;
+	margin-bottom: -50px;
+}
+
+.no-gutters{
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"]{
+  	width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+#servicos{
+	background: black;
+	margin-left: -125px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.home{
+	/*padding: 10px 0px 10px 0px;*/
+	background-size: 100%;
+	background-position: center;
+}
+
+h1{
+	margin-left: 70px;
+	padding-top: 150px;
+	font-weight: 900px;
+	letter-spacing: -0.04px;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+h3{
+	margin-left: 130px;
+	margin-bottom: 20px;
+	padding-top: 70px;
+	font-weight: 800;
+}
+
+.btn-custom{
+	margin-left: 20px;
+	color: white;
+	border-radius: 300px;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.04s;
+}
+
+.btn-azul{
+	margin-top: 15px;
+	background: #007fff;
+}
+
+.btn-azul:hover{
+	background-color: #6fbbd3;
+	color: white;
+}
+
+a:hover{
+	color: #6E767D;
+}
+
+#rodape{
+	position: relative;
+  width:100%;
+	background-color: #101010;
+	color: #6E767D;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-bottom: 25px; 
+	margin: 0px 0px;
+}
+
+.ft{
+	padding-right: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	line-height: 16px;
+	cursor: pointer;
+	overflow-wrap: break-word;
+	min-width: 0px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+#iten{
+	color: #6E767D;
+}
+
+.dev{
+	color: #6E767D;
+	margin-left: 400px;
+}
